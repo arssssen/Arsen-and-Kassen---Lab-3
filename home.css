@@ -34,6 +34,7 @@ nav ul{
 
 }
 nav ul li{
+    width: 18%;
     list-style-type: none;
     padding: 0.5% 0;
     margin-left: -5px;
@@ -47,7 +48,6 @@ nav ul li a {
     text-align: justify;
     font-size: 0.8rem;
     color: rgb(255, 255, 255);
-    padding: 0 60px;
     text-decoration: none;
 }
 nav ul li:hover{
@@ -70,10 +70,67 @@ footer{
     padding: 0% 0 0.5%;
     color:rgba(202,204,205,255);
 }
-footer ul{
-    display: inline-block;
-}
+
 footer ul li{
     list-style-type: none;
     color: rgba(171,169,171,255);
+}
+.footerlist{
+    width: fit-content;
+    margin: 0 auto;
+}
+.footerlist ul{
+    display: table-cell;
+    border-right: 1px solid rgba(34,34,34,255);
+    padding: 20px;
+}
+
+.footerlist ul:last-child{
+    border:0;
+
+}
+.footerlist ul li{
+    color: rgba(170,170,172,255);
+    padding: 5px;
+}
+.footerlist ul li:nth-child(1n+2), a{
+    color: rgba(131,131,131,255);
+
+    font-size: 0.8rem;
+}
+
+.copyright{
+    text-align: center;
+    display: inline-block;
+    font-size: 0.75rem;
+    color: rgba(131,131,131, 0.5);
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2%;
+    
+}
+
+
+
+
+/*main*/
+
+.pageimage{
+    width:40%;
+    margin: 0 auto;
+}
+.pageimage img{
+    width: 100%;
+}
+.pagep{
+    color: rgba(216,221,221,255);
+    margin: 0 auto;
+    width: 40%;
+}
+.pagep p{
+    color: rgba(150,151,152,1);
+}
+.video{
+    width:fit-content;
+    margin: 3% auto 5%;
 }
