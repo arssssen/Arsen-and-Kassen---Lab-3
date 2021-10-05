@@ -1,0 +1,62 @@
+.parallaxmeaning{
+    width: 40%;
+    margin: 2% auto;
+}
+.parallaxperspective{
+    width: 40%;
+    margin: 3% auto 0;
+
+}
+h2,h3{
+    color: rgba(216,221,221,255);
+}
+.perspectivep{
+}
+.perspectiveimg{
+    float: right;
+    margin: 2% 0 2% 2%;
+}
+.oilresources{
+    width: 40%;
+    margin: 3% auto 0;
+
+}
+.parallaxtable{
+    width: 100%;
+    border-collapse: collapse;
+}
+.parallaxtable th,td{
+    border: 1px rgba(212,216,213,255) solid;
+    text-align: start;
+    padding: 1%;
+    color:rgba(212,216,213,255);
+}
+.parallaxtable th{
+    background-color: rgba(34,34,34,255);
+
+}
+.parallaxtable tr{
+    background-color: rgba(102,102,102,255);
+
+}
+.parallaxtable tr:nth-of-type(2n+2){
+    background-color: rgba(85,85,85,255);
+
+}
+.joinparallax{
+    width: 40%;
+    margin: 3% auto 5%;
+}
+.parallaxform{
+    border: 1px rgba(212,216,213,255) solid;
+    padding: 0 3% 3%;
+
+}
+.formbtn{
+    border: 0;
+    background-color: rgba(85,85,85,255);
+    padding: 0.5% 2%;
+    color:rgba(212,216,213,255);
+    margin-top: 3%;
+
+}
