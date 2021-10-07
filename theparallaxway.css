@@ -1,0 +1,19 @@
+.floatRightImg{
+    float: right;
+    margin: 2%;
+
+}
+.ourvalues ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: #aaaaaa;
+}
+.ourvalues{
+	width: 40%;
+	margin: 0 auto;
+}
+h2{
+	color: rgba(216,221,221,255);
+}
